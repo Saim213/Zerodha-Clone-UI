@@ -50,23 +50,23 @@ class _MyHomePageState extends State<MyHomePage>
             items: const <BottomNavigationBarItem>[
               BottomNavigationBarItem(
                 icon: Icon(Icons.bookmark_border),
-                title: Text('Watchlist'),
+                label: 'Watchlist',
               ),
               BottomNavigationBarItem(
                 icon: Icon(Feather.book),
-                title: Text('Orders'),
+                label: 'Orders',
               ),
               BottomNavigationBarItem(
                 icon: Icon(FontAwesome.suitcase),
-                title: Text('Portfolio'),
+                label: 'Portfolio',
               ),
               BottomNavigationBarItem(
                 icon: Icon(MaterialCommunityIcons.cube_outline),
-                title: Text('Apps'),
+                label: 'Apps',
               ),
               BottomNavigationBarItem(
                 icon: Icon(Icons.person_outline),
-                title: Text('OP0000'),
+                label: 'OP0000',
               ),
             ],
             currentIndex: _selectedIndex,
